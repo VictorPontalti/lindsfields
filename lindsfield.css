@@ -32,7 +32,7 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 	display: flex;
 	justify-content: right;
 }
-
+ 
 	.navitem{
 		color: #3c3c3c;
 		text-decoration:none;
@@ -40,6 +40,9 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		font-weight: 500;
 	}
 
+.menulinks-footer .navitem{
+	color: #fff;
+}
 	.navitem:hover{
 		text-decoration: underline;
 		color: #e6332a;
@@ -103,10 +106,19 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		width: 100%;
 		background-color: #121212;
 		padding: 2% 10%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	footer img{
 		width: 150px;
+	}
+
+	footer .menulinks-footer{
+		width: 70%;
+		text-align: right;
 	}
 	.pages button{
 		border-radius: 10px;
@@ -124,7 +136,7 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		color: #fff;
 		cursor: pointer;
 	}
-	@media screen and (max-width: 600px){
+	@media screen and (max-width: 900px){
 		.page1{
 			flex-direction: column-reverse;
 		}
