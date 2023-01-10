@@ -5,6 +5,20 @@
 	box-sizing: border-box;
 font-family: 'Montserrat', 'Arial' , sans-serif;}
 
+.idiomas{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 1% 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+	
+}
+
+.flags{
+	width: 40px;
+	margin-left: 20px;
+}
 .topsite{
 	background-image: url('img/index.jpg');
 	background-size: cover;
@@ -20,6 +34,10 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 .topsite-realestate{
 	background-image: url('img/realestate.jpg');
 }
+
+.topsite-contact{
+	background-image: url('img/contact.jpg');
+}
 	.menutopo{
 		width: 100%;
 		background-color: rgba(255, 255, 255, 0.9);
@@ -30,7 +48,7 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		align-items: center;
 	}
 	.logo{
-		width: 15%;
+		width: 20%;
 		
 	}
 	.logo img{
@@ -116,6 +134,44 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		line-height: 2rem;
 	}
 
+	.text-form{
+		font-size: 1.4rem;
+		line-height: 2rem;
+		width: 50%;
+	}
+	.text-form p{
+		margin-bottom: 30px;
+	}
+	.text-form  input, .text-form textarea{
+		width: 80%;
+	}
+
+	.text-form input{
+		height: 35px;
+		margin-bottom: 10px;
+	}
+
+	.text-form  input:hover, .text-form textarea:hover{
+		border: 1px solid #e6332a;
+	}
+
+	.text-form .submit{
+		background-color: #fff;
+		border: 2px solid #e6332a;
+		border-radius: 10px;
+		height: auto;
+		padding: 3%;
+		text-align: center;
+		color: #e6332a;
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+
+	.text-form .submit:hover{
+		background-color: #e6332a;
+		color: #fff;
+	}
+
 	.text-pages img{
 		float: right;
 		width: 50%;
@@ -167,7 +223,13 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		.page1{
 			flex-direction: column-reverse;
 		}
+		.pageform{
+			flex-direction: column;
+		}
 
+		.text-form{
+			width: 100%;
+		}
 		.page2{
 			flex-direction: column-reverse;
 		}
@@ -195,8 +257,16 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 
 		.menulinks {
 			text-align: center;
+			margin-bottom: 20px;
+			font-size: 1.2rem;
+			margin-left: 0;
+			padding: 0;
+		}
+
+		.navitem{
+			margin-left: 0;
 			margin-bottom: 10px;
-			font-size: 1.4rem;
+			font-size: 1.0rem;
 		}
 		footer{
 			flex-direction: column;
@@ -224,5 +294,7 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		.logo img{
 			width: 100%;
 		}
+
+
 	}
 
