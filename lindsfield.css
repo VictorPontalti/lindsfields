@@ -129,6 +129,10 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 		font-size: 1.4rem;
 		line-height: 2rem;
 	}
+
+	.text-index p{
+		margin-bottom: 20px;
+	}
 	.text-pages{
 		font-size: 1.4rem;
 		line-height: 2rem;
@@ -242,6 +246,13 @@ font-family: 'Montserrat', 'Arial' , sans-serif;}
 			width: 100%;
 			margin: 0px;
 			top: 15%;
+			margin-top: 15px;
+
+		}
+
+		.topsite{
+			height: auto;
+			padding-bottom: 10%
 		}
 		.pages{
 			box-sizing: border-box;
